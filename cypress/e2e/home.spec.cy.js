@@ -58,7 +58,7 @@ context('Dev Finances', () => {
     let incomes = 0;
     let expenses = 0;
 
-    cy.get('#data-table tbody tr').each(($el, index, $list) => { // não consigo achar a tabela
+    cy.get('#data-table tbody tr').each(($el, index, $list) => { // cypress não consegue achar a tabela no site
       cy.get($el).find('td.income, td.expense').invoke('text').then((text) => {
         if (text.includes('-')) {
           expenses += format(text);
