@@ -9,8 +9,8 @@ Suíte de testes automatizados unitários desenvolvidos com Cypress para o site 
 - Cadastro de entradas e saídas são registradas corretamente
 - Remoção de cadastros e saídas são registradas corretamente
 - Validação de saldo com diversas transações
-- Otimização do tempo de execução dos testes dia OnBeforeLoad no Local Storage
-- Exemplo de mapeamento manual de elementos do site
+- Otimização do tempo de execução dos testes via OnBeforeLoad no Local Storage
+- Exemplos de mapeamento manual de elementos do site
 
 
 ## Rodando localmente
